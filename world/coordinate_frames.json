@@ -1,0 +1,1 @@
+{"status":"SCALE_PROVISIONAL","source_to_engineering":{"uniform_scale":0.752427149321267,"rotation_xyz_radians":[0,0,0],"translation_m":[0,0,0],"matrix_row_major":[[0.752427149321267,0,0,0],[0,0.752427149321267,0,0],[0,0,0.752427149321267,0],[0,0,0,1]],"apply_once_at":"runtime root node ENGINEERING_ROOT; source-coordinate asset vertices must not be pre-scaled"}}

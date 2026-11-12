@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source_manifest": "assets/materials/pbr_reference/PBR_REFERENCE_MANIFEST.json",
+  "bindings": {
+    "grass": "short_grass",
+    "asphalt": "clean_asphalt",
+    "soil": "brown_mud_dry"
+  },
+  "uv_source_units_per_repeat": 4,
+  "base_tint_srgb": [
+    1,
+    1,
+    1
+  ],
+  "geometry_displacement": false,
+  "application": "Shared generic CC0 surface appearance for the default runtime and editable master",
+  "campus_material_identity": "INFERRED_GENERIC_MATERIAL_MATCH",
+  "verification_record": "evidence/PBR_SURFACE_VERIFICATION.json"
+}

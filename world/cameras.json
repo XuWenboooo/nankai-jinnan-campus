@@ -1,0 +1,615 @@
+{
+  "axes": "source Y-up, root scale applied to both position and target",
+  "views": [
+    {
+      "id": "DEFAULT",
+      "label": "图书馆前 · 默认入口",
+      "position": [
+        -190,
+        24,
+        500
+      ],
+      "target": [
+        -75,
+        28,
+        295
+      ],
+      "fov": 60
+    },
+    {
+      "id": "ORIGINAL_01_USER",
+      "label": "原机位 01_USER",
+      "position": [
+        -836,
+        666.999996665,
+        -274.9333000001111
+      ],
+      "target": [
+        -836,
+        0,
+        -275
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:-836:0:-275:667:0:0:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_02_LIBRARY",
+      "label": "原机位 02_LIBRARY",
+      "position": [
+        -160.3493921330645,
+        175.84169179190005,
+        418.897979824636
+      ],
+      "target": [
+        -85,
+        30.090000000000003,
+        296
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:-85:30:296:205:0.55:0.78:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_03_NORTHEAST_TRACK",
+      "label": "原机位 03_NORTHEAST_TRACK",
+      "position": [
+        -426.3657431173952,
+        197.56432280050277,
+        -366.41549542570425
+      ],
+      "target": [
+        -326,
+        1.8399999999999999,
+        -523
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:-326:2:-523:270:0.57:0.76:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_04_SOUTHWEST_TRACK",
+      "label": "原机位 04_SOUTHWEST_TRACK",
+      "position": [
+        -1585.3657431173951,
+        198.94432280050276,
+        709.5845045742958
+      ],
+      "target": [
+        -1485,
+        3.2199999999999998,
+        553
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:-1485:3:553:270:0.57:0.76:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_05_EAST_TERRAIN",
+      "label": "原机位 05_EAST_TERRAIN",
+      "position": [
+        -24.711836931688666,
+        253.19700738939946,
+        -177.70921340428552
+      ],
+      "target": [
+        100,
+        1.3199999999999998,
+        -360
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:100:1:-360:335:0.6:0.72:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_06_ROAD_WATER",
+      "label": "原机位 06_ROAD_WATER",
+      "position": [
+        -824.948243651582,
+        172.2407181607876,
+        315.95643603424554
+      ],
+      "target": [
+        -720,
+        1.53,
+        175
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:-720:2:175:245:0.64:0.8:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_07_EAST_CONTEXT",
+      "label": "原机位 07_EAST_CONTEXT",
+      "position": [
+        840.8493425948709,
+        280.2391851128633,
+        243.40196331106222
+      ],
+      "target": [
+        990,
+        0.708,
+        30
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:990:1:30:382:0.61:0.75:0:0:perspective"
+    },
+    {
+      "id": "ORIGINAL_08_FAR_EAST_LIMIT",
+      "label": "原机位 08_FAR_EAST_LIMIT",
+      "position": [
+        1412.2845171474503,
+        191.20883809676567,
+        -212.03185018857192
+      ],
+      "target": [
+        1520,
+        1.512,
+        -330
+      ],
+      "fov": 75,
+      "source_hash": "#jinnan:1520:2:-330:248:0.74:0.7:0:0:perspective"
+    },
+    {
+      "id": "TREE_01",
+      "label": "枝干与冠层 1",
+      "position": [
+        -1205.321,
+        0.2999999999999998,
+        -829.321
+      ],
+      "target": [
+        -1214.321,
+        2.4000000000000004,
+        -841.321
+      ],
+      "fov": 55,
+      "object": "T000122",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_02",
+      "label": "枝干与冠层 2",
+      "position": [
+        -675.417,
+        2.3,
+        -640.333
+      ],
+      "target": [
+        -690.417,
+        4.95,
+        -640.333
+      ],
+      "fov": 55,
+      "object": "T004401",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_03",
+      "label": "枝干与冠层 3",
+      "position": [
+        -655.321,
+        2.3,
+        -473.321
+      ],
+      "target": [
+        -664.321,
+        5.5,
+        -485.321
+      ],
+      "fov": 55,
+      "object": "T005666",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_04",
+      "label": "枝干与冠层 4",
+      "position": [
+        -801.321,
+        2.3,
+        -237.321
+      ],
+      "target": [
+        -816.321,
+        4.95,
+        -237.321
+      ],
+      "fov": 55,
+      "object": "T008419",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_05",
+      "label": "枝干与冠层 5",
+      "position": [
+        -841.321,
+        2.3,
+        -44.321
+      ],
+      "target": [
+        -850.321,
+        4.4,
+        -56.321
+      ],
+      "fov": 55,
+      "object": "T011272",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_06",
+      "label": "枝干与冠层 6",
+      "position": [
+        -1266.321,
+        2.3,
+        198.679
+      ],
+      "target": [
+        -1275.321,
+        4.4,
+        186.679
+      ],
+      "fov": 55,
+      "object": "T013467",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_07",
+      "label": "枝干与冠层 7",
+      "position": [
+        -883.321,
+        2.3,
+        389.679
+      ],
+      "target": [
+        -892.321,
+        4.4,
+        377.679
+      ],
+      "fov": 55,
+      "object": "T015454",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "TREE_08",
+      "label": "枝干与冠层 8",
+      "position": [
+        -1001.321,
+        2.3,
+        584.679
+      ],
+      "target": [
+        -1010.321,
+        4.4,
+        572.679
+      ],
+      "fov": 55,
+      "object": "T017437",
+      "camera_basis": "external position and unobstructed source tree sightline"
+    },
+    {
+      "id": "BUILDING_01",
+      "label": "建筑斜侧与屋顶 1",
+      "position": [
+        -475.4,
+        37.55,
+        -728.6
+      ],
+      "target": [
+        -526.5,
+        6.0,
+        -787.0
+      ],
+      "fov": 60,
+      "object": "B_00001"
+    },
+    {
+      "id": "BUILDING_02",
+      "label": "建筑斜侧与屋顶 2",
+      "position": [
+        -463.5,
+        79.0,
+        -566.5
+      ],
+      "target": [
+        -554.5,
+        16.5,
+        -670.5
+      ],
+      "fov": 60,
+      "object": "B_00083"
+    },
+    {
+      "id": "BUILDING_03",
+      "label": "建筑斜侧与屋顶 3",
+      "position": [
+        7.0,
+        75.5,
+        -413.0
+      ],
+      "target": [
+        -84.0,
+        16.0,
+        -517.0
+      ],
+      "fov": 60,
+      "object": "B_00207"
+    },
+    {
+      "id": "BUILDING_04",
+      "label": "建筑斜侧与屋顶 4",
+      "position": [
+        -543.6,
+        60.45,
+        -250.89999999999998
+      ],
+      "target": [
+        -604.5,
+        15.0,
+        -320.5
+      ],
+      "fov": 60,
+      "object": "B_00759"
+    },
+    {
+      "id": "BUILDING_05",
+      "label": "建筑斜侧与屋顶 5",
+      "position": [
+        -511.1,
+        62.199999999999996,
+        -93.39999999999999
+      ],
+      "target": [
+        -582.5,
+        13.25,
+        -175.0
+      ],
+      "fov": 60,
+      "object": "B_00951"
+    },
+    {
+      "id": "BUILDING_06",
+      "label": "建筑斜侧与屋顶 6",
+      "position": [
+        -1256.1,
+        59.699999999999996,
+        161.60000000000002
+      ],
+      "target": [
+        -1327.5,
+        12.0,
+        80.0
+      ],
+      "fov": 60,
+      "object": "B_01332"
+    },
+    {
+      "id": "BUILDING_07",
+      "label": "建筑斜侧与屋顶 7",
+      "position": [
+        -1076.2,
+        55.15,
+        397.7
+      ],
+      "target": [
+        -1138.5,
+        12.0,
+        326.5
+      ],
+      "fov": 60,
+      "object": "B_01674"
+    },
+    {
+      "id": "BUILDING_08",
+      "label": "建筑斜侧与屋顶 8",
+      "position": [
+        -638.5,
+        76.875,
+        687.5
+      ],
+      "target": [
+        -729.5,
+        15.4375,
+        583.5
+      ],
+      "fov": 60,
+      "object": "B_02292"
+    },
+    {
+      "id": "WALK_01",
+      "label": "道路与连接 1",
+      "position": [
+        -1444.75,
+        3.2574859067246655,
+        -580.75
+      ],
+      "target": [
+        -1450.75,
+        3.2574859067246655,
+        -568.75
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_02",
+      "label": "道路与连接 2",
+      "position": [
+        -1450.75,
+        3.232774297837947,
+        -480.75
+      ],
+      "target": [
+        -1450.75,
+        3.232774297837947,
+        -468.75
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_03",
+      "label": "道路与连接 3",
+      "position": [
+        -1450.75,
+        3.232774297837947,
+        -312.75
+      ],
+      "target": [
+        -1450.75,
+        3.232774297837947,
+        -300.75
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_04",
+      "label": "道路与连接 4",
+      "position": [
+        -852.75,
+        3.2564657434270123,
+        389.25
+      ],
+      "target": [
+        -854.75,
+        3.2564657434270123,
+        377.25
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_05",
+      "label": "道路与连接 5",
+      "position": [
+        -706.75,
+        3.232774297837947,
+        373.25
+      ],
+      "target": [
+        -694.75,
+        3.232774297837947,
+        373.25
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_06",
+      "label": "道路与连接 6",
+      "position": [
+        -546.75,
+        3.232774297837947,
+        373.25
+      ],
+      "target": [
+        -534.75,
+        3.232774297837947,
+        373.25
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_07",
+      "label": "道路与连接 7",
+      "position": [
+        117.25,
+        3.232774297837947,
+        -300.75
+      ],
+      "target": [
+        119.25,
+        3.232774297837947,
+        -288.75
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "WALK_08",
+      "label": "道路与连接 8",
+      "position": [
+        157.25,
+        3.232774297837947,
+        51.25
+      ],
+      "target": [
+        157.25,
+        3.232774297837947,
+        63.25
+      ],
+      "fov": 65,
+      "basis": "actual connected road, terrain height + 1.68m eye"
+    },
+    {
+      "id": "SOURCE_STADIUM_SW",
+      "label": "源真实西区田径场",
+      "position": [
+        -820,
+        110,
+        700
+      ],
+      "target": [
+        -935.5,
+        0,
+        548.5
+      ],
+      "fov": 60
+    },
+    {
+      "id": "SOURCE_STADIUM_EAST",
+      "label": "源真实东区田径场",
+      "position": [
+        335,
+        110,
+        -380
+      ],
+      "target": [
+        220.5,
+        0,
+        -525.5
+      ],
+      "fov": 60
+    },
+    {
+      "id": "WATER_PLANTS",
+      "label": "南门水生叶近景",
+      "position": [
+        -85,
+        2,
+        672
+      ],
+      "target": [
+        -81,
+        -1.984,
+        664
+      ],
+      "fov": 60
+    },
+    {
+      "id": "NORTH_ROOF_DETAILS",
+      "label": "北部采光顶与屋面",
+      "position": [
+        -875,
+        125,
+        -480
+      ],
+      "target": [
+        -960,
+        15,
+        -576
+      ],
+      "fov": 60
+    },
+    {
+      "id": "TERRAIN_GRADE",
+      "label": "台地边界连续性",
+      "position": [
+        18,
+        3,
+        680
+      ],
+      "target": [
+        10,
+        0.4,
+        682
+      ],
+      "fov": 60
+    }
+  ]
+}
